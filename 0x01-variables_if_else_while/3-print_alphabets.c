@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - prints alpha in lower and upper case
-* Return: Always 0
-*/
+ * main - alphABET in lowercase and uppercase
+ *
+ * Return: Always 0
+ */
+
 int main(void)
 {
-	char ch;
+	char y;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-
-	for (ch = 'A'; ch <= 'z'; ch++)
-		putchar(ch);
-
+	for (y = 'a' ; y <= 'z' ; y++)
+		putchar(y);
+	for (y = 'A' ; y <= 'Z' ; y++)
+		putchar(y);
 	putchar('\n');
-
 	return (0);
 }
